@@ -104,7 +104,7 @@ const Customers = () => {
           <Search className="w-4 h-4 text-slate-400 flex-shrink-0 mr-2" />
           <input
             type="text"
-            placeholder={`Search by ${searchType}...`}
+            placeholder={`Search across ${searchType}...`}
             className="flex-1 py-3 text-sm text-slate-700 placeholder:text-slate-400 outline-none bg-transparent"
             value={search}
             onChange={e => setSearch(e.target.value)}
